@@ -2,6 +2,13 @@ import "./globals.css";
 import { ThemeProvider } from "next-themes";
 import Navbar from "@/app/components/Navbar";
 
+export const metadata = {
+  title: "Hritheekka Chinnakonda | Software Engineer",
+  description:
+    "Software Engineer building clean, scalable, and user-focused applications with modern technologies.",
+};
+
+
 export default function RootLayout({
   children,
 }: {

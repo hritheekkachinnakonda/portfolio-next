@@ -8,7 +8,9 @@ const navItems = [
     { label: "Home", href: "/" },
     { label: "Projects", href: "/projects" },
     { label: "Experience", href: "/experience" },
+    { label: "Contact", href: "/contact" },
 ];
+
 
 export default function Navbar() {
     const pathname = usePathname();
@@ -29,8 +31,8 @@ export default function Navbar() {
                                 key={item.href}
                                 href={item.href}
                                 className={`text-sm transition ${isActive
-                                        ? "font-semibold text-foreground"
-                                        : "text-muted-foreground hover:text-foreground"
+                                    ? "font-semibold text-foreground"
+                                    : "text-muted-foreground hover:text-foreground"
                                     }`}
                             >
                                 {item.label}
