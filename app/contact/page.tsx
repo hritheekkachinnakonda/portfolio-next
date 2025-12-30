@@ -7,16 +7,16 @@ export default function ContactPage() {
 
             <p className="text-muted-foreground mb-12 text-lg">
                 I’m always open to discussing new opportunities, interesting projects,
-                or collaborations.
+                or collaborations!
             </p>
 
             <div className="space-y-6">
                 <a
-                    href="mailto:YOUR_EMAIL_HERE"
+                    href="mailto:hritheekka2002@hotmail.com"
                     className="flex items-center gap-4 p-4 rounded-xl border hover:bg-muted transition"
                 >
                     <Mail className="w-5 h-5" />
-                    <span>YOUR_EMAIL_HERE</span>
+                    <span>hritheekka2002@hotmail.com</span>
                 </a>
 
                 <a
@@ -30,7 +30,7 @@ export default function ContactPage() {
                 </a>
 
                 <a
-                    href="https://www.linkedin.com/in/YOUR_LINKEDIN"
+                    href="https://www.linkedin.com/in/hritheekkac2002"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center gap-4 p-4 rounded-xl border hover:bg-muted transition"

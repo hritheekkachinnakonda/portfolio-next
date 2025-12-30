@@ -1,22 +1,37 @@
-export interface Project {
+export type Project = {
     title: string;
     description: string;
     tech: string[];
-    link?: string;
-}
+    github?: string;
+    demo?: string;
+};
 
 export const projects: Project[] = [
     {
-        title: "AI Productivity App",
+        title: "AI-Powered Productivity App",
         description:
-            "An AI-powered task management app that breaks down goals, schedules tasks intelligently, and adapts to user behavior.",
-        tech: ["Flutter", "Firebase", "LangChain", "Mistral"],
-        link: "https://github.com/your-repo",
+            "Designed and built an AI-driven mobile app that converts high-level goals into actionable, scheduled tasks using local LLMs and real-time sync.",
+        tech: [
+            "Flutter",
+            "Dart",
+            "Firebase",
+            "LangChain",
+            "Mistral 7B",
+        ],
+        github: "https://github.com/your-repo",
     },
     {
-        title: "Portfolio Website",
+        title: "Personal Portfolio Website",
         description:
-            "A modern, responsive portfolio built with Next.js, TypeScript, and Tailwind CSS.",
-        tech: ["Next.js", "TypeScript", "Tailwind", "Framer Motion"],
+            "Modern, responsive portfolio built with Next.js and Framer Motion, featuring dark mode, smooth animations, and optimized performance.",
+        tech: [
+            "Next.js",
+            "TypeScript",
+            "Tailwind CSS",
+            "Framer Motion",
+            "Vercel",
+        ],
+        github: "https://github.com/hritheekkachinnakonda",
+        demo: "https://hritheekkachinnakonda.vercel.app",
     },
 ];

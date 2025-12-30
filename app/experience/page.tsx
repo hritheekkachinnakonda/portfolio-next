@@ -9,8 +9,7 @@ export default function ExperiencePage() {
                     Experience
                 </h1>
                 <p className="text-muted-foreground">
-                    My professional experience and the impact I’ve made in
-                    engineering roles.
+                    My journey through development, automation, and innovative technologies.
                 </p>
             </header>
 
