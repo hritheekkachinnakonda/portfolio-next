@@ -30,7 +30,7 @@ export const projects: Project[] = [
             "LangChain",
             "Mistral 7B",
         ],
-        github: "https://github.com/your-repo",
+        //github: "https://github.com/your-repo",
     },
     {
         title: "Personal Portfolio Website",
@@ -46,4 +46,20 @@ export const projects: Project[] = [
         github: "https://github.com/hritheekkachinnakonda",
         demo: "https://hritheekkachinnakonda.vercel.app",
     },
+    {
+        title: "MRI Image Segmentation & Compression using k-Means Clustering",
+        description:
+            "Implemented k-means clustering from scratch for MRI image segmentation and lossy compression, including k-means++ initialization, runtime benchmarking, and analysis of reconstruction fidelity. Demonstrates unsupervised learning, data preprocessing, and experimental rigor applied to medical imaging data.",
+        tech: [
+            "Python",
+            "NumPy",
+            "Matplotlib",
+            "scikit-image",
+            "Pandas",
+            "Machine Learning",
+            "Data Analysis"
+        ],
+        github: "https://github.com/hritheekkachinnakonda/MRI-image-segmentation-and-compression",
+        demo: "https://hub.bids.mybinder.org/user/hritheekkachinn-and-compression-mnwmqo2t/notebooks/notebooks/demo.ipynb",
+    }
 ];
