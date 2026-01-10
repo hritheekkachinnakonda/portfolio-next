@@ -4,11 +4,23 @@ export type Project = {
     tech: string[];
     github?: string;
     demo?: string;
+    report?: string;
 };
 
 export const projects: Project[] = [
     {
-        title: "AI-Powered Productivity App",
+        title: "Real-Time ASL to Speech Translator",
+        description:
+            "Designed and implemented a near real-time American Sign Language to speech translator using a custom machine learning pipeline, enabling accessible communication through speech synthesis APIs.",
+        tech: [
+            "Python",
+            "11Labs API",
+            "Raspberry Pi",
+        ],
+        // \report: "",
+    },
+    {
+        title: "AI-Powered Productivity App (In Progress)",
         description:
             "Designed and built an AI-driven mobile app that converts high-level goals into actionable, scheduled tasks using local LLMs and real-time sync.",
         tech: [
