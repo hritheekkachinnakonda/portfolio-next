@@ -22,7 +22,7 @@ export default function Navbar() {
                     HC
                 </Link>
 
-                <div className="flex items-center gap-6">
+                <div className="hidden md:flex items-center gap-6">
                     {navItems.map((item) => {
                         const isActive = pathname === item.href;
 
@@ -39,9 +39,8 @@ export default function Navbar() {
                             </Link>
                         );
                     })}
-
-                    <ThemeToggle />
                 </div>
+                <ThemeToggle />
             </div>
         </nav>
     );
