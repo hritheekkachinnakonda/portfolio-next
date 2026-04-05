@@ -17,6 +17,7 @@ export const projects: Project[] = [
             "11Labs API",
             "Raspberry Pi",
         ],
+        demo: "https://youtube.com/shorts/UBJVDw3tnw8?feature=share",
         // \report: "",
     },
     {
@@ -74,6 +75,6 @@ export const projects: Project[] = [
             "Bio-instrumentation"
         ],
         github: "https://github.com/hritheekkachinnakonda/EOG-Based-Human-Computer-Interface.git",
-        demo: "https://hub.bids.mybinder.org/user/hritheekkachinn-and-compression-mnwmqo2t/notebooks/notebooks/demo.ipynb",
+        demo: "https://youtu.be/tbC4gFUQ5EA",
     }
 ];
