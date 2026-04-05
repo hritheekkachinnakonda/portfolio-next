@@ -65,7 +65,7 @@ export const projects: Project[] = [
     {
         title: "EOG-Based Human-Computer Interface (HCI)",
         description:
-            "Real-time mouse control and gesture recognition using ocular bio-potentials.",
+            "Real-time mouse control and gesture recognition using ocular bio-potentials. This project implements a real-time mouse control system using Electrooculography (EOG). By capturing the resting potential of the eye—known as the ocular dipole—the system translates horizontal and vertical eye movements into on-screen cursor coordinates.",
         tech: [
             "Python",
             "MATLAB",
