@@ -37,7 +37,7 @@ export default function Hero() {
     return (
         <section
             ref={containerRef}
-            className="min-h-[70vh] flex items-center justify-center"
+            className="min-h-[70vh] flex items-center justify-center pt-20 md:pt-28"
         >
             <div className="flex flex-col md:flex-row items-center md:justify-between w-full max-w-6xl px-4 md:px-0 gap-12">
                 {/* Left side */}
