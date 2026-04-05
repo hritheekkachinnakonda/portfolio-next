@@ -9,7 +9,7 @@ import {
 import Link from "next/link";
 import Image from "next/image";
 import { useRef } from "react";
-import myPicture from "@/public/profile.png";
+import myPicture from "@/public/profile.png"; // Make sure to place your image here.
 
 export default function Hero() {
     const containerRef = useRef(null);
@@ -108,7 +108,7 @@ export default function Hero() {
                             <Image
                                 src={myPicture}
                                 alt="Hritheekka"
-                                className="w-52 h-52 lg:w-56 lg:h-56"
+                                className="w-full h-full object-cover rounded-full"
                                 priority
                             />
                         </motion.div>
