@@ -60,6 +60,20 @@ export const projects: Project[] = [
             "Data Analysis"
         ],
         github: "https://github.com/hritheekkachinnakonda/MRI-image-segmentation-and-compression",
+        // demo: "https://hub.bids.mybinder.org/user/hritheekkachinn-and-compression-mnwmqo2t/notebooks/notebooks/demo.ipynb",
+    },
+    {
+        title: "EOG-Based Human-Computer Interface (HCI)",
+        description:
+            "Real-time mouse control and gesture recognition using ocular bio-potentials.",
+        tech: [
+            "Python",
+            "MATLAB",
+            "NI-DAQmx",
+            "Signal Processing",
+            "Bio-instrumentation"
+        ],
+        github: "https://github.com/hritheekkachinnakonda/EOG-Based-Human-Computer-Interface.git",
         demo: "https://hub.bids.mybinder.org/user/hritheekkachinn-and-compression-mnwmqo2t/notebooks/notebooks/demo.ipynb",
     }
 ];

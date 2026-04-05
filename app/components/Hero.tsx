@@ -47,13 +47,13 @@ export default function Hero() {
                     transition={{ duration: 0.6, ease: "easeOut" }}
                     className="space-y-6 md:w-1/2"
                 >
-                    <h1 className="text-4xl md:text-6xl font-bold tracking-tight">
+                    <h1 className="text-4xl md:text-6xl font-bold tracking-tight ">
                         Hi, I’m{" "}
                         <span className="text-primary">Hritheekka</span>
                     </h1>
 
                     <p className="text-xl md:text-2xl font-medium text-muted-foreground">
-                        Engineer
+                        Automation Engineer
                     </p>
 
                     <p className="max-w-xl text-muted-foreground">
@@ -108,7 +108,7 @@ export default function Hero() {
                             <Image
                                 src={myPicture}
                                 alt="Hritheekka"
-                                className="object-cover w-full h-full"
+                                className="w-52 h-52 lg:w-56 lg:h-56"
                                 priority
                             />
                         </motion.div>

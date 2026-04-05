@@ -12,16 +12,27 @@ export default function ProjectCard({ project }: Props) {
     return (
         <motion.div
             whileHover={{
-                y: -6,
-                scale: 1.02,
+                y: -4,
+                scale: 1.015,
             }}
             transition={{
                 type: "spring",
-                stiffness: 300,
-                damping: 20,
+                stiffness: 260,
+                damping: 22,
             }}
-            className="rounded-2xl border p-6 bg-background"
+            className="
+        rounded-2xl
+        border border-border/60
+        p-6
+        bg-background/80
+        transition-all hover:bg-background hover:border-primary/40 hover:shadow-md hover:ring-1 hover:ring-primary/20
+        hover:bg-background
+        hover:border-primary/40
+        hover:shadow-md
+    "
         >
+
+
             {/* Title */}
             <h3 className="text-xl font-semibold mb-2">
                 {project.title}
